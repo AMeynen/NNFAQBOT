@@ -23,7 +23,7 @@ from langchain.chains import LLMChain, ConversationalRetrievalChain, RetrievalQA
 from langchain.llms.openai import OpenAI
 from langchain.requests import TextRequestsWrapper
 from langchain.tools.json.tool import JsonSpec
-import pinecone 
+
 
 os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 
