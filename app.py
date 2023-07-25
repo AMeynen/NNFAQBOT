@@ -39,7 +39,7 @@ def prompt_template():
     prompt_template = """Use the following pieces of context to answer the questions about NN at the end.
 {context}
 Question: {question}
-If you don't know the answer, just say that you don't know, don't try to make up an answer. Only give answers about the provided context and answer in Dutch.
+If you don't know the answer, just say that you don't know, don't try to make up an answer. Only give answers about the provided context. Answer in Dutch and then repeat the same answer in English.
 Helpful Answer:"""
 
     return PromptTemplate(
